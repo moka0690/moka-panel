@@ -3,10 +3,16 @@
   padding: 0;
   box-sizing: border-box;
   }
+  :root {
+    --color-text-main:#8A92A6;
+    --color-text-secondary:#232D42;
+    --color-text-third: #0000;
+  }
   img{
     width: 100%;
   }
 main {
+  font-family:"Inter", serif;
     height: 100vh;
     overflow: hidden;
     width: 100%;
@@ -17,7 +23,7 @@ main {
 .left-side {
   display: flex;
     flex-wrap: wrap;
-   padding-inline: 32px;
+    padding-inline: 17%;
 }
 .logo {
   display: flex;
@@ -59,38 +65,38 @@ text-align: center;
 
 }
 .social-link{
-  display: flex
-  ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+  
 }
 .sing-in-google{
       width: 24px;
     height: 24px;
-    background-image: url('/src/assets/images/Gmail.png');
-    background-size: cover; 
-
-
-
+    background-image: url(/src/assets/images/Gmail.png);
+    background-size:cover; 
   
 }
 .sing-in-facebook
 {
   width: 24px;
   height: 24px;
-  background-image: url('/src/assets/images/Gmail.png');
+  background-image: url(/src/assets/images/Facebook.png);
   background-size: cover; 
 
 }
 .sing-in-instagram{
   width: 24px;
   height: 24px;
-  background-image: url('/src/assets/images/Gmail.png');
+  background-image: url(/src/assets/images/Instagram.png);
   background-size: cover; 
  
  }
 .sing-in-linkedin{
   width: 24px;
   height: 24px;
-  background-image: url('/src/assets/images/Gmail.png');
+  background-image: url(/src/assets/images/Linkedin.png);
   background-size: cover; 
 
 }
