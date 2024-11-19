@@ -24,10 +24,74 @@ main {
   align-items: center;
   gap: 10px;
    justify-content: center;
-
 }
 .content{
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
 }
+.img-logo{
+  width: 28px;
+  height: 28px;
+}
+.title-form{
+text-align: center;
+}
+.box-email{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.box-password{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.box-checkbox {
+  display: flex;
+}
+.box-buttom {
+  display: flex;
+  justify-content: center;
+  
+}
+.Suggestions{
+
+}
+.social-link{
+  display: flex
+  ;
+}
+.sing-in-google{
+      width: 24px;
+    height: 24px;
+    background-image: url('/src/assets/images/Gmail.png');
+    background-size: cover; 
+
+
+
+  
+}
+.sing-in-facebook
+{
+  width: 24px;
+  height: 24px;
+  background-image: url('/src/assets/images/Gmail.png');
+  background-size: cover; 
+
+}
+.sing-in-instagram{
+  width: 24px;
+  height: 24px;
+  background-image: url('/src/assets/images/Gmail.png');
+  background-size: cover; 
+ 
+ }
+.sing-in-linkedin{
+  width: 24px;
+  height: 24px;
+  background-image: url('/src/assets/images/Gmail.png');
+  background-size: cover; 
+
+}
+               
